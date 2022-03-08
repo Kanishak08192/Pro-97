@@ -7,9 +7,10 @@ while (chanceCount < 5):
         print("Your guess is too large")
     elif (introString == number):
         print("Congratulation! You guessed it correct")
+        break
     else :
         print("Your number guess is too less")
     chanceCount = chanceCount + 1
-if (chanceCount >= 5):
+if (chanceCount >= 5 ):
     print("You are out of chances")
 
